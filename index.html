@@ -6,20 +6,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/doc.css" rel="stylesheet" type="text/css"/>
+	<script src="TouchUI/js/jcl-base.js"></script>
+	<script src="TouchUI/js/jcl.js"></script>
+	<script src="TouchUI/js/i18n/code.zh_CN.js"></script>
+	<script src="TouchUI/js/jcl-plugins.js"></script>
+	<script src="TouchUI/js/jcl-ui.js"></script>
+	<script src="TouchUI/js/ui/component/base/popup.js"></script>
+	<script src="TouchUI/js/ui/component/base/segment.js"></script>
+	<script src="TouchUI/js/ui/component/base/switch.js"></script>
+	<script src="TouchUI/js/ui/component/tabset/tabset.js"></script>
+	<script src="TouchUI/js/local.js"></script>
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
+  <script defer src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script defer src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
   <script>
     window.$docsify = {
-      name: '',
       loadNavbar: true,
-      subMaxLevel: 2,
+      loadSidebar: true,
       maxLevel: 4,
-      loadSidebar: '_sidebar.md',
-      repo: 'nico1988' // github
+      name: 'Touchui 2.0 api 文档',
+      repo: 'https://github.com/TOUCH-UI/docs', // github
+      search: 'auto', // 默认值
+      subMaxLevel: 2,
+      search: {
+        noData: {
+          '/de-de/': 'Keine Ergebnisse!',
+          '/zh-cn/': '没有结果!',
+          '/': '没有结果!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/de-de/': 'Suche',
+          '/zh-cn/': '搜索',
+          '/': '搜索'
+        }
+      },
+      plugins: [
+        EditOnGithubPlugin.create(
+          'https://github.com/TOUCH-UI/docs/blob/master/'
+        ),
+      ]
     }
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
 </html>

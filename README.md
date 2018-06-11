@@ -39,7 +39,8 @@
 标记之外`hello world`标记之外
 
 > 代码块
-
+二级标题
+---------------------
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -113,7 +114,7 @@ code
 
 [百度1](http://www.baidu.com/)
 
-> 图片
+> 图片 img
 
 !['ggg'](./img/1.jpg "图片")
 ![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
