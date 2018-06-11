@@ -1,1 +1,2 @@
 test
+test 持续集成到nginx
