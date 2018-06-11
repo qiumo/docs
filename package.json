@@ -1,0 +1,26 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "> list",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docsify serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOUCH-UI/docs.git"
+  },
+  "author": "nico1988 <410827024@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TOUCH-UI/docs/issues"
+  },
+  "homepage": "https://github.com/TOUCH-UI/docs#readme",
+  "dependencies": {
+    "docsify": "^4.6.10"
+  }
+}
