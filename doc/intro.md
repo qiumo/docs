@@ -17,3 +17,5 @@
 - FTP文件上传功能为附件上传下载和导入导出提供文件存储支持。
 
 <iframe width="100%" height="300" src="//jsfiddle.net/nico1988/6wkbey4q/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/nico1988/yfob98d4/10/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/nico1988/yfob98d4/27/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
