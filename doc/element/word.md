@@ -1,4 +1,7 @@
+> [前往实例演示平台编辑此实例](http://aiplan.wadecn.com:9998/#/elements/word)
+
 ## 大小设置
+
 
 ```html
 <span class="e_size-s">临</span>
