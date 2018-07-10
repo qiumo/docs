@@ -61,6 +61,7 @@ $("#mySegment").change(function(){
 $("#mySegment").val();
 ```
 设置分段器组件的值（必须匹配分段器组件数据源中的值才有效）
+test
 
 ```javascript
 $("#mySegment").val(value);
